@@ -7,7 +7,7 @@ This script processes ring image files by creating copies with sequential number
 ```
 changeRingFileName/
 ├── node_modules/
-├── rings/           (place your images here)
+├── rename.zip          (place your images here)
 ├── result/          (processed images will appear here)
 ├── index.js
 └── package.json
@@ -23,7 +23,7 @@ The script processes files based on their number in the filename (e.g., 23260-O-
    - Starting from 6 for example(the minimun ring size)
    Example:
    - Original: 23260-O-07-SP2.jpg
-   - Creates: 
+   - Creates:
      - 23260-O-06-SP2.jpg
      - 23260-O-07-SP2.jpg (copy of original)
      - 23260-O-08-SP2.jpg
@@ -51,7 +51,7 @@ The script processes files based on their number in the filename (e.g., 23260-O-
 
 ## Usage
 
-1. Place all your .jpg files in the `rings` folder
+1. Place all your .jpg files in the `rename.zip` file
 2. Open a terminal in the `changeRingFileName` folder
 3. Run:
    ```
@@ -69,4 +69,4 @@ Files must follow this format:
   - Third part: number (06-12)
   - Fourth part: text (e.g., SP2)
 
-Files that don't follow this format will be skipped. 
+Files that don't follow this format will be skipped.
